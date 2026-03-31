@@ -38,15 +38,15 @@ import sobremesa5 from "../assets/Image/donuts.png";
 const categorias = [
   "Combos Mata Fome",
   "Hambúrgueres",
-  "Refrigerantes",
-  "Batata",
+  "Bebidas",
+  "Batatas",
   "Sobremesas",
 ];
 
 const imagensProdutos = {
   "Combo Gorila": comboGorila,
   "Combo JK": comboJK,
-  "Combo orangotango": comboPadrao,
+  "Combo Orangotango": comboPadrao,
   "Combo Mico": comboMico,
   "Combo Sagui": comboSagui,
   "Combo Kids": combokids,
@@ -55,7 +55,7 @@ const imagensProdutos = {
   "Sagui Burguer": burger2,
   "Gorila Burguer": burger3,
   "Mico Burguer": burger4,
-  "orangotango Burguer": burger5,
+  "Orangotango Burguer": burger5,
   "Cheddar Burguer": burger6,
 
   "Coca-Cola 500ml": refri,
@@ -105,9 +105,9 @@ export default function Menu() {
       case "LANCHE":
         return "Hambúrgueres";
       case "BEBIDA":
-        return "Refrigerantes";
+        return "Bebidas";
       case "ACOMPANHAMENTO":
-        return "Batata";
+        return "Batatas";
       case "SOBREMESA":
         return "Sobremesas";
       default:
