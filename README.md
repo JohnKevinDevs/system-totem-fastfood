@@ -4,6 +4,10 @@ Totem Fast Food JK Burguer is a self-service fast food kiosk system developed as
 
 The project was designed to simulate a real ordering experience, allowing customers to browse products, assemble orders, choose payment methods, and interact with a loyalty flow based on CPF.
 
+## Screenshot
+
+![Totem Fast Food welcome screen](docs/assets/screenshots/home.png)
+
 ## Overview
 
 | Area | Description |
